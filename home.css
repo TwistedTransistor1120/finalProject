@@ -1,0 +1,94 @@
+body {
+    background-image: url(assets/background77-1.png);
+    box-sizing: border-box;
+    /*font-family: 'Dancing Script', cursive;*/
+    /*font-family: 'Nova Mono', monospace;*/
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/*header_______________________________________________________*/
+header {
+   width: 100%;
+   /*position: fixed;*/
+   
+}
+.headerTop {
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+.headerTop {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.headerTop .address {
+    color: #7c7f81;
+    margin: auto 2% auto 10%;
+}
+.headerTop .tel {
+    margin: auto 10% auto auto;
+}
+.headerTop .tel span:first-of-type{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.navLine {
+    display: flex;
+    background-color: white;
+}
+.navLine picture {
+    margin-left: 8%;
+    margin-right: 4px;
+}
+.mainNav {
+    padding: 4px;
+    margin: auto;
+}
+.mainNav ul {
+    display: flex;
+   
+}
+.mainNav ul li {
+    text-transform: uppercase;
+}
+.navLine .counter {
+    display: flex;
+    margin: auto 10% auto auto;
+}
+.navLine .counter li {
+    border: 1px black solid;
+}
+.navLine .counter li:first-of-type {
+    border-right: none;
+}
+
+/*main________________________________________________*/
+.carousel {
+    background-image: url(assets/pekar-slide-1.png);
+    background-size: 100% auto;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: auto 10%;
+}
+
